@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-    int num,even,odd,count = -1;
+    int num,even=0,odd=0,count = -1;
+
     do{
         cout << "Enter an integer: ";
         cin >> num;
